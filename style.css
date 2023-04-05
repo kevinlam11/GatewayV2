@@ -305,3 +305,35 @@ body {
   margin-right: auto;
   margin-top: 50px;
 }
+
+/* MEDIA QUERY  MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY*/
+
+@media (max-width: 480px) {
+  .bg1 {
+    display: flow-root;
+  }
+  .bg2 {
+    display: inline;
+  }
+  .contact {
+    display: grid;
+  }
+  p {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .mp {
+    font-size: 16px;
+  }
+  .card {
+    display: flex;
+    font-size: 16px;
+    margin: auto;
+    height: auto;
+  }
+
+  .contactMe {
+  }
+}
