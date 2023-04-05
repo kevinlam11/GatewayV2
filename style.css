@@ -23,6 +23,7 @@ body {
 }
 
 .hero {
+  height: auto;
   width: 7%;
   margin: 3%;
 }
@@ -298,16 +299,7 @@ body {
   display: flex;
   position: relative;
   justify-content: space-evenly;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
-
-.contactMe {
-  display: flex;
-  position: relative;
-  justify-content: space-evenly;
+  height: fit-content;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
