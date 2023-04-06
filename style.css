@@ -10,8 +10,10 @@ body {
   background-attachment: fixed;
 }
 .bg2 {
-  background-size: 100%;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
 }
 
 /* NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR */
@@ -306,27 +308,77 @@ body {
   margin-top: 50px;
 }
 
-/* MEDIA QUERY  MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY*/
-
-@media (max-width: 480px) {
+/* MEDIA QUERY  MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY (max-width: 448px)*/
+@media (max-width: 600px) {
+  /*BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG  */
   .bg1 {
-    display: flow-root;
+    background-size: auto;
+    margin-right: 50%;
   }
   .bg2 {
-    display: inline;
+    display: fixed;
+  }
+
+  /* INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX */
+
+  .hero {
+    height: 50%;
+    width: 10%;
   }
   .contact {
     display: grid;
   }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+  }
+  .dear {
+    font-size: 80px;
+  }
+  .Osaka {
+    font-size: 120px;
+  }
   p {
-    font-size: 16px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    text-align: center;
+  }
+  .button1 {
+    font-size: 10px;
   }
   .title {
     font-size: 16px;
   }
+  .specials {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    display: block;
+    background-size: auto;
+    margin-left: 50px;
+  }
+  .cardImage2 {
+    height: 10%;
+    width: 10%;
+    margin-right: 50px;
+  }
+  .cardHeader1 {
+    margin-right: 50px;
+  }
   .mp {
     font-size: 16px;
   }
+
+  /* MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU */
+
+  .product-container {
+    display: block;
+  }
+
   .card {
     display: flex;
     font-size: 16px;
@@ -334,6 +386,23 @@ body {
     height: auto;
   }
 
+  /* CONTACT ME CONTACT ME CONTACT ME CONTACT ME CONTACT ME CONTACT ME CONTACT ME */
+
+  .contact {
+    display: flexbox;
+    margin-left: 15%;
+    align-items: center;
+  }
+  .btn {
+    margin: auto;
+  }
+
+  .form {
+    width: 250px;
+  }
+
   .contactMe {
+    height: auto;
+    width: auto;
   }
 }
